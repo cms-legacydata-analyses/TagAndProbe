@@ -1,4 +1,4 @@
-# TagAndProbe 2019
+# TagAndProbe package using Legacy Open Data samples
 
 **Introduction**
 
@@ -44,7 +44,7 @@ Create a working directory for the analyzer and go to that directory
 
 At this point, you must copy this Git to your area using the command:
 
-`$ git clone -b master git@github.com:cms-legacydata-analyses/TagAndProbe.git`
+`$ git clone git@github.com:sandrofonseca/TagAndProbe.git`
 
 Go to this directory that you copied from Git and compile the code:
 
@@ -77,7 +77,9 @@ and the triggers in the line 36:
 
 	
 
+**Recipe to produce ntuples using condor**
 
+[Recipe Tutorial](https://twiki.cern.ch/twiki/pub/CMS/UERJLIPInternshipProgram2020/Condor_tagprobeRecipe.pdf)
 
 
 
